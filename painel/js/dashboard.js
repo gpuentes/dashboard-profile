@@ -11,7 +11,7 @@
       saleGradientBg2.addColorStop(0, 'rgba(0, 208, 255, 0.19)');
       saleGradientBg2.addColorStop(1, 'rgba(0, 208, 255, 0.03)');
       var salesTopData = {
-          labels: ["SUN","sun", "MON", "mon", "TUE","tue", "WED", "wed", "THU", "thu", "FRI", "fri", "SAT"],
+          labels: ["DOM","dom", "SEG", "seg", "TER","ter", "QUA", "qua", "THU", "thu", "FRI", "fri", "SAT"],
           datasets: [{
               label: 'This week',
               data: [50, 110, 60, 290, 200, 115, 130, 170, 90, 210, 240, 280, 200],
@@ -369,7 +369,7 @@
     if ($("#marketingOverview").length) {
       var marketingOverviewChart = document.getElementById("marketingOverview").getContext('2d');
       var marketingOverviewData = {
-          labels: ["JAN","FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
+          labels: ["JAN","FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"],
           datasets: [{
               label: 'Last week',
               data: [110, 220, 200, 190, 220, 110, 210, 110, 205, 202, 201, 150],
@@ -637,7 +637,7 @@
     if ($("#leaveReport").length) {
       var leaveReportChart = document.getElementById("leaveReport").getContext('2d');
       var leaveReportData = {
-          labels: ["Jan","Feb", "Mar", "Apr", "May"],
+          labels: ["Jan","Fev", "Mar", "Abri", "Mai"],
           datasets: [{
               label: 'Last week',
               data: [18, 25, 39, 11, 24],
